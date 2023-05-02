@@ -1,0 +1,17 @@
+{
+  "name": "@chainsafe/solidity-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "info@chainsafe.io",
+  "license": "MIT",
+  "scripts": {
+    "build": "md-to-pdf --config-file ./config.json ./*.md",
+    "build:html": "md-to-pdf --config-file ./config.json --as-html ./*.md",
+    "postbuild": "open ./audit.pdf",
+    "postbuild:html": "open ./audit.html"
+  },
+  "dependencies": {
+    "md-to-pdf": "^5.2.4",
+    "open-cli": "^7.2.0"
+  }
+}

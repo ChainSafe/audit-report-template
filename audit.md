@@ -14,7 +14,17 @@
 <br>
 <br>
 
-# 1. Introduction
+# Table of contents
+1. [Introduction](#introduction)
+   1. [Defining Severity](#severity)
+   2. [Updated code](#updated-code)
+   3. [Disclaimer](#disclaimer)
+2. [Executive Summary](#summary)
+3. [Critical Bugs and Vulnerabilities](#critical-bugs)
+4. [Line by line Findings](#line-by-line)
+
+<a name="#introduction"></a>
+# 1. Introduction 
 <br>
 
 <table>
@@ -46,6 +56,7 @@ Additional verification was performed after that.
 <br>
 <br>
 
+<a id="#severity"></a>
 ## Defining Severity
 
 Each finding is assigned a severity level.
@@ -85,6 +96,7 @@ Each finding is assigned a severity level.
 
 <br>
 
+<a id="#updated-code"></a>
 ### Referencing updated code
 
 <table>
@@ -103,11 +115,13 @@ Each finding is assigned a severity level.
 </table>
 <br>
 
+<a id="#disclaimer"></a>
 ### Disclaimer
 The review makes no statements or warranties about the utility of the code, safety of the code, suitability of the business model, regulatory regime for the business model, or any other statements about the fitness of the contracts for any specific purpose, or their bug free status.
 <br>
 <br>
 
+<a id="#summary"></a>
 # 2. Executive Summary
 
 All the initially identified high severity issues were fixed and are not present in the final version of the contract.
@@ -120,12 +134,14 @@ We are looking forward to future engagements with the {Company Name}.
 <br>
 <br>
 
+<a id="#critical-bugs"></a>
 # 3. Critical Bugs and Vulnerabilities
 
 **Two** critical issues (5.17, 5.19) were identified in the contracts that would allow a malicious actor to borrow all the deposited assets from the protocol without leaving anything for collateral.
 <br>
 <br>
 
+<a id="#line-by-line"></a>
 # 4. Line-by-line review
 
 ### src/contracts/Contract.sol

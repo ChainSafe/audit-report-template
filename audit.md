@@ -6,18 +6,16 @@
 
 
 ![Cover](/cover.png)
-# {Company Name} Smart Contract Review | {Month} 2023 
+# {Company Name} Smart Contract Review | {Month} 2023  <!-- omit from toc --> 
 
-#### by ChainSafe Systems | {Month} 2023
+#### by ChainSafe Systems | {Month} 2023 <!-- omit from toc --> 
 
 <div class="page-break"></div>
 <br>
 <br>
 
-# Table of contents
-- [{Company Name} Smart Contract Review | {Month} 2023](#company-name-smart-contract-review--month-2023)
-      - [by ChainSafe Systems | {Month} 2023](#by-chainsafe-systems--month-2023)
-- [Table of contents](#table-of-contents)
+# Table of contents <!-- omit from toc --> 
+
 - [1. Introduction](#1-introduction)
   - [Defining Severity](#defining-severity)
     - [Referencing updated code](#referencing-updated-code)
@@ -25,7 +23,7 @@
 - [2. Executive Summary](#2-executive-summary)
 - [3. Critical Bugs and Vulnerabilities](#3-critical-bugs-and-vulnerabilities)
 - [4. Line-by-line review](#4-line-by-line-review)
-    - [src/contracts/Contract.sol](#srccontractscontractsol)
+    - [{path to file}](#path-to-file)
     - [src/contracts/FixedLender.sol](#srccontractsfixedlendersol)
 
 <a name="#introduction"></a>
@@ -149,9 +147,11 @@ We are looking forward to future engagements with the {Company Name}.
 <a id="#line-by-line"></a>
 # 4. Line-by-line review
 
-### src/contracts/Contract.sol
+<!-- (see example below for an idea of how it works) -->
+### {path to file}
 
-**L16-23** <span class="severity minor">Minor</span>
+<!--  Optional: add the codeblock for more context.  -->
+**L{start #}-{end #}** <span class="severity minor">Minor</span>
 
 ```solidity
 uint256 updatedTotalShares = totalShares + newShares;
@@ -161,8 +161,11 @@ require(updatedTotalShares >= MIN_NONZERO_TOTAL_SHARES,
 
 The `{Contract Name}` contract is the entry point for deposits into and withdrawals from strategies. More specifically, to deposit into a strategy, a staker calls `depositIntoStrategy` (or anyone calls).
 
+<!-- Reference the line on which the issue occurs like we do with our legacy audits. --> 
 **L43** <span class="severity note">Note</span>
+<br>
 The return param `smartPoolDebtReduction` is not described.
+<!-- double linebreak to indicate end of issues for that file -->
 <br>
 <br>
 

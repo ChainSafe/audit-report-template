@@ -8,20 +8,25 @@
 ![Cover](/cover.png)
 # {Company Name} Smart Contract Review | {Month} 2023 
 
-### by ChainSafe Systems | {Month} 2023
+#### by ChainSafe Systems | {Month} 2023
 
 <div class="page-break"></div>
 <br>
 <br>
 
 # Table of contents
-1. [Introduction](#introduction)
-   1. [Defining Severity](#severity)
-   2. [Updated code](#updated-code)
-   3. [Disclaimer](#disclaimer)
-2. [Executive Summary](#summary)
-3. [Critical Bugs and Vulnerabilities](#critical-bugs)
-4. [Line by line Findings](#line-by-line)
+- [{Company Name} Smart Contract Review | {Month} 2023](#company-name-smart-contract-review--month-2023)
+      - [by ChainSafe Systems | {Month} 2023](#by-chainsafe-systems--month-2023)
+- [Table of contents](#table-of-contents)
+- [1. Introduction](#1-introduction)
+  - [Defining Severity](#defining-severity)
+    - [Referencing updated code](#referencing-updated-code)
+    - [Disclaimer](#disclaimer)
+- [2. Executive Summary](#2-executive-summary)
+- [3. Critical Bugs and Vulnerabilities](#3-critical-bugs-and-vulnerabilities)
+- [4. Line-by-line review](#4-line-by-line-review)
+    - [src/contracts/Contract.sol](#srccontractscontractsol)
+    - [src/contracts/FixedLender.sol](#srccontractsfixedlendersol)
 
 <a name="#introduction"></a>
 # 1. Introduction 

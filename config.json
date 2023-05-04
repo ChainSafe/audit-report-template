@@ -2,7 +2,9 @@
     "pdf_options": { 
         "format": "A4",
         "margin": "20mm",
-        "printBackground": true 
+        "printBackground": true,
+        "headerTemplate": "<section style='margin: 0 20px; font-family: system-ui; display: flex; flex-direction: row; justify-content: space-between; width: 100%'><span style='font-size: 12px'>ChainSafe Audits</span><span style='font-size:12px' class='date'></span></section>",
+        "footerTemplate": "<section style='margin: 0 20px; font-family: system-ui; display: flex; flex-direction: row; justify-content: flex-end; width: 100%'><span style='font-size:12px' class='pageNumber'></span></section>"
     },
     "body_class": "markdown-body",
     "stylesheet": [
